@@ -32,7 +32,7 @@ print(F" It's inamej's iage}{ordinal_suffix} Birthday")
 
  else:
 
-print ("Nope, today is not your birthday just wait")
+print ("Nope today is not your birthday just wait")
 
 
 
