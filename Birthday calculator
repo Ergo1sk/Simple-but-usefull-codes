@@ -1,0 +1,38 @@
+ import datetime
+
+ current date = datetine.date. today).strftime( ZY=Zm-=La")
+
+ current.date.lst = current date.split(-")
+
+
+
+ bdate input(' Enter birthday in yyyy-mm-dd format: ")
+
+ name= input (' Name of birthday legend?')
+
+ late = bdate. split( "-')
+
+
+
+ if current_date.1st[1]== b_date[1] and currentdate_1st[2] == bdate[2]:
+
+age = int (current.date. 1st[0]) - int(b.datel[0])
+
+
+
+ordinal_suffix = {1: 'st', 2: 'nd', 3: 'rd', 11: th', 12: "th', 13:
+
+
+
+th'3.get(age 7 10 if not 10 < age <= 13 else age 14, "th')
+
+print(F" It's inamej's iage}{ordinal_suffix} Birthday")
+
+
+
+ else:
+
+print ("Nope, today is not your birthday just wait")
+
+
+
