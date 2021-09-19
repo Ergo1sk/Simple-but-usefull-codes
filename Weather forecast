@@ -1,0 +1,52 @@
+ import requests, json
+
+ apikey "Your API Key"
+ baseurl = "http://api.openweathe rmap.org/data/2.5/weather ?"
+ cityname = input ("Enter city name: ")
+ completeurl = base.url "appid="api key"aq" city.name
+
+ response= requests.get (complete_ur1)
+x = response.json ()
+
+ if x'cod"] != "404":
+
+y = x["main"
+current temperature = y["temp"]
+
+
+
+
+
+current.pressure = y["pressure"]
+
+
+
+current humidity = y["humidity"]
+
+
+
+z = x["weather"]
+
+
+
+weather_description = z[e]["description'"]
+
+
+
+print(" Temperature (in kelvin unit) = " + str(current temperature)
+"n atmospheric pressure (in hPa unit) = " str (current-pressure)
+"n humidity (in percentage) = " str(current.hunidity)
+n description= " str (weather_description))
+
+
+
+
+
+
+
+ else:
+
+print(" City Not Found)
+
+
+
